@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloGeneral.css">
+    <link rel="stylesheet" href="css/estiloFormulario.css">
+    <title>Empleados</title>
+</head>
+<body>
+    <header>
+        <h2>Bienvenido a la editorial, esperemos que tenga un excelente dia</h2>
+        <h3>Ingrese su clave de empleado</h3>
+    </header>
+    <main>
+        <div class="formulario">
+            <form action="" method="post">
+                <label for="claveEmpleado">Clave de empleado:</label>
+                <input type="number" id="claveEmpleado" name="claveEmpleado" placeholder="123456" required
+                    oninput="if(this.value.length > 6) this.value = this.value.slice(0,6);">
+
+                <button type="submit">Aceptar</button>
+
+                <a href="index.html">Regresar al inicio</a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

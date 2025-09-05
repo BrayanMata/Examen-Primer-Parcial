@@ -1,0 +1,84 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:root
+{
+    --grisClaro-Color: #F8F9FA;
+    --grisOscuro-Color: #2C2C2C;
+    --grisNeutro-Color: #6C757D;
+    --azulSuave-Color: #6FA8DC;
+    --rosaSuave-Color: #D9A7A7;
+    --verdePastel-Color: #B7D3B0;
+
+    --rojoVino-Color: #8B0000;
+    --dorado-Color: #C5A46D;
+    --verdeEsmeralda: #228B22;
+    --azulMarino-Color: #003366;
+
+    --body-Color: #203754;
+    --azulFuerte-Color: #3e5ca6;
+    --azulOscuro-Color: #003d7d;
+    --azulClaro-Color: #007bd1;
+    --azulBajito-Color: #6acef1;
+    
+    --blanco-Color: #f0f0f0;
+    --negro-Color: #111111;
+}
+
+body
+{
+    background-color: var(--azulSuave-Color);
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--blanco-Color);
+    padding: 10px;
+    transition: 0.2s;
+}
+a:hover
+{
+    background-color: var(--blanco-Color);
+    color: var(--negro-Color);
+}
+
+header
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1
+{
+    font-size: 60px;
+}
+
+h2 
+{
+    font-size: 50px;
+}
+
+h3
+{
+    font-size: 40px;
+}
+
+main
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

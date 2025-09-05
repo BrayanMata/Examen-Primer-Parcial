@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloGeneral.css">
+    <link rel="stylesheet" href="css/estiloFormulario.css">
+    <title>Visitante</title>
+</head>
+<body>
+    <header>
+        <h2>Bienvenido a la editorial, esperemos que su estadia aqui sea agradable</h2>
+        <h3>Conteste la siguiente pequeña encuesta</h3>
+    </header>
+    <main>
+        <div class="formulario">
+            <form action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" min="10" max="70" required>
+
+                <label for="motivo">Motivo de la visita:</label>
+                <select name="uni" required>
+                    <option value="">-- Selecciona una Universidad --</option>
+                    <option value="otros">Otros</option>
+                </select>
+
+                <button type="submit">Aceptar</button>
+
+                <a href="index.html">Regresar al inicio</a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
