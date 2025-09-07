@@ -14,22 +14,19 @@
     </header>
     <main>
         <div class="formulario">
-            <form action="" method="post">
+            <form action="php/procesar_visita.php" method="post">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
 
-                <label for="edad">Edad:</label>
-                <input type="number" name="edad" id="edad" min="10" max="70" required>
-
                 <label for="motivo">Motivo de la visita:</label>
-                <select name="uni" required>
-                    <option value="">-- Selecciona una Universidad --</option>
+                <select name="motivo" required>
+                    <option value="">-- Selecciona --</option>
                     <option value="otros">Otros</option>
                 </select>
 
                 <button type="submit">Aceptar</button>
 
-                <a href="index.html">Regresar al inicio</a>
+                <a href="index.php">Regresar al inicio</a>
             </form>
         </div>
     </main>
