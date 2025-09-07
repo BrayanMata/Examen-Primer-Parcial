@@ -15,7 +15,8 @@ header h3
     font-size: 35px;
 }
 
-.formulario{
+.formulario
+{
     width: 500px;
     height: auto;
     display: flex;
@@ -28,30 +29,41 @@ header h3
     padding: 10px;
     margin: 20px;
 }
-.formulario a{
+.formulario a
+{
     margin-top: 15px;
+    text-align: center;
 }
-form{
+form
+{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-label{
+label
+{
     margin-bottom: 5px;
     font-size: 30px;
 }
-input{
+input
+{
     margin-bottom: 15px;
     font-size: 25px;
     text-align: center;
     padding: 5px;
 }
-button{
+button
+{
     font-size: 25px;
     padding: 5px;
 }
-select{
+select
+{
+    max-width: 450px; 
+    white-space: nowrap; 
+    overflow: hidden;   
+    text-overflow: ellipsis;
     margin-bottom: 15px;
     font-size: 25px;
     text-align: center;
